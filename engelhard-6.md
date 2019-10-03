@@ -7,12 +7,24 @@
     methods - a system that iterates through a table of allowed usernames and passwords and compares it to data input from  user
     
 2. Student is able to read assignment instructions
+
+	classes - view-assignment class
+	methods - student will be able to select different files to view them
   
 3. Student can select assignment they want to submit
   
-4. Student can upload files 
+  	classes - fileExplorer fileChecker
+	method - student will be able to find assignments, files picked while be checked for file type
   
+4. Student can upload files 
+
+  	classes - fileChecker, uploadFile
+	methods - will check file for type, will put file into a table into database
+	
 5. Student can provide a comment along with a file submission
+  
+  	classes - c
+  
   
 6. Student can submit/re-submit uploaded file 
  
