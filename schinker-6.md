@@ -1,5 +1,7 @@
 ## To-do layout for Class Submission Application 
 
+ Link to general design document: https://github.com/computationalmystic/sengfs19/blob/master/assignments/4-assignment-3-support-files/4-Design-requirements.md
+
 ### General Requirements 
 - General UI to access all features provided by system
 	- UI must be intuitive and easy to access
