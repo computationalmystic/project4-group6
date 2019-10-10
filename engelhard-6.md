@@ -1,53 +1,81 @@
 # to do list
+https://github.com/Ramya2902/nbny6/blob/master/Project_2_Design_Focus/Project2_Design_Process.pdf
 
 ### STUDENTS
 1. Login/Logout
 
-    classes - login class, logout class 
-    methods - a system that iterates through a table of allowed usernames and passwords and compares it to data input from  user
+    methods and classes to check against a server of users
+    needs database
+    
     
 2. Student is able to read assignment instructions
-
-	classes - view-assignment class
-	methods - student will be able to select different files to view them
+	
+	creation of assignment database 
+	method to allow students to view files
   
 3. Student can select assignment they want to submit
   
-  	classes - fileExplorer fileChecker
-	method - student will be able to find assignments, files picked while be checked for file type
-  
+  	needs a way to check file type
+	error messages
+	code for file browser
+	
 4. Student can upload files 
 
-  	classes - fileChecker, uploadFile
-	methods - will check file for type, will put file into a table into database
+  	database for files
+	way to choose files
 	
 5. Student can provide a comment along with a file submission
   
-  	classes - c
-  
+  	table to accomadate a string along with submission
+  	class and method to allow user to create string
   
 6. Student can submit/re-submit uploaded file 
+
+	class for submit/resubmit that determines if the user has a spot in table that is full
  
 ### TEACHER ASSISTANTS (TA)
 1. Login/Logout
 
+	see student 1
+
 2. TA can view course assignments.
  
+ 	database
+	table for assignments
+ 
 3. TA can view student submissions for an assignment.
+	
+	see above
   
 4. TA can search students in a course
+
+	method to search tables for student users
+	databse required 
+	
  
 5. TA can collect assignments by downloading students' submission files
+
+	function to download tables from database
+	
   
 
 ### INSTRUCTOR
 1. Login/Logout
 
+	see student 1
+
 2. Instructors can perform all functions TAs can perform.
+
+	create user permissions to see who gets access to what tables and access to creation
+	
 	 
 3. Instructor can create/edit/remove courses and sections
 	 
+	 instructor allowed to alter tables in the database
+	 
 4. Instructor can add /remove TAs for the course sections
+	  
+	  
 	  
 5. Instructor can add/remove students in the course sections
 	  
@@ -56,4 +84,6 @@
 
 ### SYSTEM ADMINISTRATOR
 1. Admin can add/edit/remove/disable instructors
+
+	admin can alter tables
 	
