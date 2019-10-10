@@ -1,4 +1,6 @@
 # To Do List  
+Link to general design document: https://github.com/computationalmystic/sengfs19/blob/master/assignments/4-assignment-3-support-files/4-Design-requirements.md
+
 
 ## Students  
 
