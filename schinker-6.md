@@ -87,15 +87,34 @@
 2. Instructors can perform all functions TAs can perform.
 
 - Define logic for granting access to this functionality 
+- TA user has access to specified methods
 
 3. Instructor can create/edit/remove courses and sections
+
+- Methods for creating/editing/removing courses from course database/repository
+- UI for initializing/removing courses
+- Ability to manage databse/repository containing courses 
 	 
 4. Instructor can add /remove TAs for the course sections
 
+- Define logic and methods to grant TA permission
+- Access user database to add said permissions to specified user
+
 5. Instructor can add/remove students in the course sections
+
+- Access which students are in course and display that data
+- Methods and logic for adding/removing students manually in the database
 
 6. Instructor can create/edit/remove assignments of each course
 
+- Methods for creating/editing/removing assignments from course database/repository
+- UI for initializing/removing assignments
+- Ability to manage databse/repository containing assignments
+
 ### SYSTEM ADMINISTRATOR
 1. Admin can add/edit/remove/disable instructors
+- Logic to varify that user is a system administrator 
+- Access data from user databse that show's who is an instructor and display that data
+- Methods and logic for overseeing instructors 
+- Add field in databse to state if instructor is disabled?
 	  
