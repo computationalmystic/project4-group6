@@ -4,29 +4,29 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 ### STUDENTS
 1. Login/Logout
 
-    methods and classes to check against a server of users
+    methods and classes to check against a server of users </br>
     needs database
     
     
 2. Student is able to read assignment instructions
 	
-	creation of assignment database 
+	creation of assignment database </br>
 	method to allow students to view files
   
 3. Student can select assignment they want to submit
   
-  	needs a way to check file type
-	error messages
+  	needs a way to check file type </br>
+	error messages </br>
 	code for file browser
 	
 4. Student can upload files 
 
-  	database for files
+  	database for files </br>
 	way to choose files
 	
 5. Student can provide a comment along with a file submission
   
-  	table to accomadate a string along with submission
+  	table to accomadate a string along with submission <br/
   	class and method to allow user to create string
   
 6. Student can submit/re-submit uploaded file 
@@ -40,7 +40,7 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 
 2. TA can view course assignments.
  
- 	database
+ 	database <br/>
 	table for assignments
  
 3. TA can view student submissions for an assignment.
@@ -49,7 +49,7 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
   
 4. TA can search students in a course
 
-	method to search tables for student users
+	method to search tables for student users <br/>
 	databse required 
 	
  
@@ -71,7 +71,8 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 	 
 3. Instructor can create/edit/remove courses and sections
 	 
-	 instructor allowed to alter tables in the database
+	 instructor allowed to alter tables in the database . 
+	 
 	 instructor has access to all parts of the course
 	 
 4. Instructor can add /remove TAs for the course sections
