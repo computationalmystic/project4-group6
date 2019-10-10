@@ -1,4 +1,4 @@
-## To-do layout for Student 
+## To-do layout for Class Submission Application 
 
 ### General Requirements 
 - General UI to access all features provided by system
