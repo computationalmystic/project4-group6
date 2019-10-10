@@ -1,5 +1,5 @@
 # to do list
-https://github.com/Ramya2902/nbny6/blob/master/Project_2_Design_Focus/Project2_Design_Process.pdf
+https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-support-files/4-Design-requirements.md
 
 ### STUDENTS
 1. Login/Logout
@@ -72,18 +72,29 @@ https://github.com/Ramya2902/nbny6/blob/master/Project_2_Design_Focus/Project2_D
 3. Instructor can create/edit/remove courses and sections
 	 
 	 instructor allowed to alter tables in the database
+	 instructor has access to all parts of the course
 	 
 4. Instructor can add /remove TAs for the course sections
-	  
+	  ^
 	  
 	  
 5. Instructor can add/remove students in the course sections
-	  
+	  ^
 6. Instructor can create/edit/remove assignments of each course
 	 
-
+	^
 ### SYSTEM ADMINISTRATOR
 1. Admin can add/edit/remove/disable instructors
 
-	admin can alter tables
+	admin can add instructors to users database
+	
+	
+### extra
+
+
+	setup a User interface
+	setup a database
+	
+	
+	
 	
