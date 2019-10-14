@@ -40,6 +40,8 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 - add an "open/close" attribute to assignments (determining whether you can submit something)
 
 
+
+
 4. Student can upload files 
 
   	
@@ -197,3 +199,6 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 - Logic to varify that user is a system administrator 
  
  
+## Next Steps
+
+Logical next steps would be to have a sit-down, in-person meeting to decide where to start and to delegate responsibilities. Following this, regular progress checks should be conducted to make sure everyone is on track and not stuck on one issue. Code reviews would also be needed, to ensure that completed components were done in best way possible and to ensure that code aligns with the pre-defined standards of the group/organization. It will be key to utilize all members of the team for a project of this size, whether it be organizing the project, actual writing of code, reviewing code, and ensure that integration of all components works as expected. 
