@@ -9,7 +9,7 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 
   
    
-  -Create database to hold user's credentials
+  - Create database to hold user's credentials
   -  a ui with user and password fields
    - methods and classes to check against a server of users to validate a password and user
 
@@ -24,15 +24,15 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 - Error check to ensure student is logged in to view
 - Create course repository (important)
 - creation of assignment database
--method to allow students to view files
+- method to allow students to view files
 - Logic to ensure student is a part of course repository review
--assignment instructions that are entered by instructor are easily viewable by student
+- assignment instructions that are entered by instructor are easily viewable by student
 
   
 3. Student can select assignment they want to submit
   
-  	-needs a way to check file type 
-	-error messages for file type errors
+  	- needs a way to check file type 
+	- error messages for file type errors
 	- Similar criteria and logic for viewing an assignment 
 - Specific UI page to display assignments provided
 - Query database/repository for class assignments and populate UI
@@ -49,8 +49,8 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 - Ability to transfer submitted files to said database
 - Define which file types are supported
 - Define logic and error checks for submitted fi
--specify file type needed
--implement directories for submitted files to be stored in/accessed from
+- specify file type needed
+- implement directories for submitted files to be stored in/accessed from
 
 
 5. Student can provide a comment along with a file submission
@@ -61,7 +61,7 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 - Element on UI that allows for text input
 - Methods that attach message to submission
 - Insert message into database in an optional field of the submission data
--Comments are only displayed to the teachers and ta’s
+- Comments are only displayed to the teachers and ta’s
 
 
 
@@ -70,8 +70,8 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 
 	
 
--establish boolean value for if assignment is submitted/not submitted
--establish permissions to make sure students only submit to proper assignments
+- establish boolean value for if assignment is submitted/not submitted
+- establish permissions to make sure students only submit to proper assignments
 - Methods for resubmission/updating the database with new submission(Same logic and criteria as first file submission)
 
 - UI elements that display resubmission as an option
@@ -83,8 +83,8 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 
 	
 
--Create database to hold user's credentials
--Create validation system and criteria
+- Create database to hold user's credentials
+- Create validation system and criteria
 - Logic will match that of students login
 - Logic defined for this specific user will lead to UI elements/methods specifically available to this user
 	- Grading
@@ -105,7 +105,7 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 	
 	
 
--Determine permissions and way for TA to access submissions after authentication
+- Determine permissions and way for TA to access submissions after authentication
 - Populate UI with course submissions from database
 - UI to click on and view this data
 - methods that connect this functionality to grading functionality
