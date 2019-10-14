@@ -37,14 +37,14 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 - Specific UI page to display assignments provided
 - Query database/repository for class assignments and populate UI
 - Transition to upload page
--add an "open/close" attribute to assignments (determining whether you can submit something)
+- add an "open/close" attribute to assignments (determining whether you can submit something)
 
 
 4. Student can upload files 
 
   	
 	
--Method to choose files
+- Method to choose files
 - Access course repository/database
 - Ability to transfer submitted files to said database
 - Define which file types are supported
@@ -87,8 +87,8 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 - Create validation system and criteria
 - Logic will match that of students login
 - Logic defined for this specific user will lead to UI elements/methods specifically available to this user
-	- Grading
-	- Viewing course wide submissions
+- Grading
+- Viewing course wide submissions
 
 
 2. TA can view course assignments.
@@ -112,10 +112,10 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 
 4. TA can search students in a course
 
-	-method to search tables for specific student users 
+-method to search tables for specific student users 
 
--give TA access to view students/pull info from database
--populate students based on query
+- give TA access to view students/pull info from database
+- populate students based on query
 - Populate search results on UI
 
 - methods for actions that can be taken with queried students
@@ -124,11 +124,11 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
  
 5. TA can collect assignments by downloading students' submission files
 
-	-methods to download tables from database
+- methods to download tables from database
  
 - Methods for querying database
 
--create file dialog to download the file and save it to a desired location
+- create file dialog to download the file and save it to a desired location
 
 - Accessing selected submission files from database
 
@@ -151,7 +151,7 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 
 	- Define logic for granting access to this functionality 
 
--Create permissions for instructors that include all the same abilities as the TAs
+- Create permissions for instructors that include all the same abilities as the TAs
 
 - TA user has access to specified methods
 	
@@ -169,20 +169,20 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 - Define logic and methods to grant TA permission
 - Access user database to add said permissions to specified user
 - remove permissions for deleted TA’s
--update database
+- update database
 
 	  
 5. Instructor can add/remove students in the course sections
 	  
--Update the DB when a student is added/deleted
--give new students permission to access course materials and remove permissions from students that are removed.
+- Update the DB when a student is added/deleted
+- give new students permission to access course materials and remove permissions from students that are removed.
 - Access which students are in course and display that data
 - Methods and logic for adding/removing students manually in the database
 6. Instructor can create/edit/remove assignments of each course
 	 
 	
--create user interface to create a new assignment and fill in all pertinent information
--remove all data from deleted assignments
+- create user interface to create a new assignment and fill in all pertinent information
+- remove all data from deleted assignments
 - Methods for removing assignments from course database/repository
 - Ability to manage database/repository containing assignments
 
@@ -190,9 +190,9 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 1. Admin can add/edit/remove/disable instructors
 
 	
--Give highest level of permissions and access
--Create interface to create and edit instructors and where they're assigned
--Establish error checking so that an instructor with active courses doesn't get deleted
+- Give highest level of permissions and access
+- Create interface to create and edit instructors and where they're assigned
+- Establish error checking so that an instructor with active courses doesn't get deleted
 - Logic to varify that user is a system administrator 
  
  
