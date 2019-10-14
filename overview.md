@@ -31,9 +31,9 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
   
 3. Student can select assignment they want to submit
   
-  	- needs a way to check file type 
-	- error messages for file type errors
-	- Similar criteria and logic for viewing an assignment 
+- needs a way to check file type 
+- error messages for file type errors
+- Similar criteria and logic for viewing an assignment 
 - Specific UI page to display assignments provided
 - Query database/repository for class assignments and populate UI
 - Transition to upload page
@@ -112,7 +112,7 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 
 4. TA can search students in a course
 
--method to search tables for specific student users 
+- method to search tables for specific student users 
 
 - give TA access to view students/pull info from database
 - populate students based on query
@@ -147,9 +147,10 @@ https://github.com/njewwc/sengfs19/blob/master/assignments/4-assignment-3-suppor
 
 
 2. Instructors can perform all functions TAs can perform.
-	-create user permissions to see who(TA’s gets access to what tables and access to creation
 
-	- Define logic for granting access to this functionality 
+- create user permissions to see who(TA’s gets access to what tables and access to creation
+
+- Define logic for granting access to this functionality 
 
 - Create permissions for instructors that include all the same abilities as the TAs
 
