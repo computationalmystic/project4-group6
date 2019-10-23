@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+.custom-card{
+    width: 18rem; 
+    height: 290px;
+    background-color: beige;
+    cursor: pointer; 
+    padding: 10px;
+    margin-bottom: 20px !important; 
+    
+}
