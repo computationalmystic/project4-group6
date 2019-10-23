@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+import { DataService } from '../data.service'
+import { ActivatedRoute } from '@angular/router';
+
 @Component({
   selector: 'app-repos',
   templateUrl: './repos.component.html',
@@ -7,9 +10,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReposComponent implements OnInit {
 
-  constructor() { }
+  repos: Object;
+
+  urlId: string = this.route.snapshot.paramMap.get('groupId');
+
+  constructor(private route: ActivatedRoute, private dataService: DataService) { }
 
   ngOnInit() {
+    this.dataService.getRepos(this.urlId).subscribe(data => {
+      this.repos = data;
+      console.log(this.repos);
+    }
+    );
   }
 
 }
