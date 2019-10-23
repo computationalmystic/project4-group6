@@ -11,4 +11,8 @@ export class DataService {
   getGroups(){
     return this.http.get('http://augur.osshealth.io:5000/api/unstable/repo-groups/');
   }
+
+  getRepos(groupId: string){
+    return this.http.get('http://augur.osshealth.io:5000/api/unstable/repo-groups/' + groupId + '/repos/' );
+  }
 }

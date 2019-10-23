@@ -6,14 +6,16 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { InfoComponent } from './info/info.component';
 
-import { HttpClientModule } from '@angular/common/http'; 
+import { HttpClientModule } from '@angular/common/http';
+import { ReposComponent } from './repos/repos.component'; 
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    InfoComponent
+    InfoComponent,
+    ReposComponent
   ],
   imports: [
     BrowserModule,
