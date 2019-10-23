@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import {DataService} from '../data.service';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  groups: Object;
+
+  constructor( private dataService: DataService) { }
 
   ngOnInit() {
+
+    this.dataService.getGroups().subscribe(data => {
+      this.groups = data;
+      console.log(this.groups);
+    }
+    );
   }
 
 }
