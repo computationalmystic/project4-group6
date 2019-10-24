@@ -7,7 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { InfoComponent } from './info/info.component';
 
 import { HttpClientModule } from '@angular/common/http';
-import { ReposComponent } from './repos/repos.component'; 
+import { ReposComponent } from './repos/repos.component';
+import { ContributorsComponent } from './contributors/contributors.component'; 
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ReposComponent } from './repos/repos.component';
     AppComponent,
     HomeComponent,
     InfoComponent,
-    ReposComponent
+    ReposComponent,
+    ContributorsComponent
   ],
   imports: [
     BrowserModule,
