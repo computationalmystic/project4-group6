@@ -7,7 +7,8 @@
     
             <div *ngFor="let repo of repos">
     
-                <div class="card custom-card repos" [routerLink]="">
+                <div class="card custom-card repos" 
+                [routerLink]="'/contributors/' + urlId + '/' + repo.repo_id">
     
                     <h3> {{ repo.repo_name }} </h3>
                     <h4> {{ repo.repo_id }} </h4>
