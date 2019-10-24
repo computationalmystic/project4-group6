@@ -2,10 +2,17 @@
 
 .custom-card{
     width: 18rem; 
-    height: 290px;
-    background-color: beige;
+    background-color: lightgray;
     cursor: pointer; 
     padding: 10px;
     margin-bottom: 20px !important; 
     
+}
+
+.groups{
+    height: 290px;
+}
+
+.repos{
+    height: 150px;
 }

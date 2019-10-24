@@ -1,23 +1,28 @@
 <ng-container *ngIf="!repos">
-        <h4>No Repo detected in this group.</h4>
-    </ng-container>
-    
-    <ng-container *ngIf="repos">
-        <div class="card-deck">
-    
-            <div *ngFor="let repo of repos">
-    
-                <div class="card custom-card" [routerLink]="">
-    
-                    <h3> {{ repo.repo_name }} </h3>
-                    <h4> {{ repo.repo_id }} </h4>
-                    <br>
-    
-                </div>
-    
-    
+    <h4>Loading repos in group, please wait a moment...</h4>
+</ng-container>
+
+<ng-container *ngIf="repos && repos.length === 0">
+    <h4>No repositories found in this group</h4>
+</ng-container>
+
+
+<ng-container *ngIf="repos">
+    <div class="card-deck">
+
+        <div *ngFor="let repo of repos">
+
+            <div class="card custom-card repos" [routerLink]="'/contributors/' + urlId + '/' + repo.repo_id">
+
+                <h3> {{ repo.repo_name }} </h3>
+                <h4> {{ repo.repo_id }} </h4>
+                <br>
+
             </div>
-    
+
+
         </div>
-    
-    </ng-container>
+
+    </div>
+
+</ng-container>
