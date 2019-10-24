@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {DataService} from '../data.service';
 @Component({
   selector: 'app-info',
   templateUrl: './info.component.html',
@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InfoComponent implements OnInit {
 
-  constructor() { }
+  issues: Object;
+
+  constructor( private dataService: DataService) { }
 
   ngOnInit() {
+    this.dataService.getIssues().subscribe(data => {
+      this.issues = data;
+      console.log(this.issues);
+     }
+    );
   }
 
 }
