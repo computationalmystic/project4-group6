@@ -1,5 +1,5 @@
 <ng-container *ngIf="!repos">
-        <h4>No Repo detected in this group.</h4>
+        <h4>Loading repos in group, please wait a moment...</h4>
     </ng-container>
     
     <ng-container *ngIf="repos">
@@ -7,7 +7,7 @@
     
             <div *ngFor="let repo of repos">
     
-                <div class="card custom-card" [routerLink]="">
+                <div class="card custom-card repos" [routerLink]="">
     
                     <h3> {{ repo.repo_name }} </h3>
                     <h4> {{ repo.repo_id }} </h4>
