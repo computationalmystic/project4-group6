@@ -4,7 +4,7 @@
     <h4>Loading pull requests info, please wait a moment...</h4>
 </ng-container>
 
-<ng-container *ngIf="pulls && pulls.length === 0">
+<ng-container *ngIf="pulls && pulls != []">
     <h4>No pull requests found in this repository</h4>
 </ng-container>
 <br>
@@ -36,7 +36,7 @@
     <h4>Loading repos in group, please wait a moment...</h4>
 </ng-container>
 
-<ng-container *ngIf="contributors && contributors.length === 0">
+<ng-container *ngIf="contributors && contributors != []">
     <h4>No Contributors found in this repository</h4>
 </ng-container>
 

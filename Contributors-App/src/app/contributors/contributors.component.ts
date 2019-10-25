@@ -19,7 +19,7 @@ export class ContributorsComponent implements OnInit {
   urlRepoId: string = this.route.snapshot.paramMap.get('repoId');
 
 
-
+ 
 
   constructor(private route: ActivatedRoute, private dataService: DataService) { }
 
