@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+.custom-card{
+    width: 18rem; 
+    background-color: lightgray;
+    cursor: pointer; 
+    padding: 10px;
+    margin-bottom: 20px !important; 
+    
+}
+
+.groups{
+    height: 290px;
+}
+
+.repos{
+    height: 150px;
+}
