@@ -1,12 +1,16 @@
 # Project 4 - Group 6
 ###### Group Members: Brad Schinker, Cole Engelhard, Chris Rehagen
+###### Running Link: https://computationalmystic.github.io/project4-group6/finished-app/home
 
 ## Overview
 Pulls JSON data and provides data visualizations for repositories, contributors, commits, and pull requests. 
 
 
+## Walkthrough
+Upon loading into the app, you will be shown repository groups, with each Angular card being a different group. Clicking on a card will take you into that repo group and you'll see each repository within it. From there you can see data about contributions, issues, and pull requestions about that respective repo. 
 
-## Method of Acquring JSON Data
+## Code Snippets
+#### Method of Acquring JSON Data
  
  Retreiving all repo:
  ``` javascript
@@ -22,7 +26,7 @@ Pulls JSON data and provides data visualizations for repositories, contributors,
  }
  ````
  
- ## Displaying Data
+ #### Displaying Data
  
   Example of how pulled data is displayed:
   ``` html
