@@ -1,0 +1,25 @@
+<ng-container *ngIf="!groups">
+    <h4>Loading repo groups, please wait a moment...</h4>
+</ng-container>
+
+<ng-container *ngIf="groups">
+    <div class="card-deck">
+
+        <div *ngFor="let group of groups">
+
+            <div class="card custom-card groups" [routerLink]="'/repos/' + group.repo_group_id">
+
+                <h3> {{ group.rg_name }} </h3>
+                <h4> {{ group.repo_group_id }} </h4>
+                <br>
+                <h5> {{ group.rg_description }} </h5>
+                <h6> Last Modified: {{ group.rg_last_modified }}</h6>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</ng-container>

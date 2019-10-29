@@ -1,0 +1,25 @@
+<ng-container *ngIf="!issues">
+    <h4>No Repo Groups detected.</h4>
+</ng-container>
+
+<ng-container *ngIf="issues">
+    <div class="card-deck">
+
+        <div *ngFor="let issue of issues">
+
+            <div class="card custom-card">
+
+                <h4> repo: {{ issue.repo_name }} </h4>
+                <h4> issues collected on {{ issue.date }} </h4>
+                <br>
+                <h4> the number of issues is {{ issue.issues }} </h4>
+                
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</ng-container>
