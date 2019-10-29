@@ -1,13 +1,16 @@
 # Project 4 - Group 6
 ###### Group Members: Brad Schinker, Cole Engelhard, Chris Rehagen
-###### Running Link: https://computationalmystic.github.io/project4-group6/finished-app/home
+###### Running Link: https://computationalmystic.github.io/project4-group6/finished-app/
+
+## Note*
+Link to the web page will not properly load data from endpoints because the endpoints are encoded with the http protocol, while github.io is running through https. This creates a mixed content error, which most web browsers block. We had a discussion with professor Goggins about this, and he said it was fine since you grade the code in a certain environment. The data will load if you use FireFox and disable the mixed content blocker in the config. The info for how to do this was found [here](https://support.mozilla.org/en-US/questions/1198894).
 
 ## Overview
 Pulls JSON data and provides data visualizations for repositories, contributors, commits, and pull requests. 
 
 
 ## Walkthrough
-Upon loading into the app, you will be shown repository groups, with each Angular card being a different group. Clicking on a card will take you into that repo group and you'll see each repository within it. From there you can see data about contributions, issues, and pull requestions about that respective repo. 
+Upon loading into the app, you will be shown repository groups, with each Angular card being a different group. Clicking on a card will take you into that repo group and you'll see each repository within it. From there you can see data about contributions, and pull requestions about that respective repo. Clicking on Other info will give you information on the issues created within a repository.
 
 ## Code Snippets
 #### Method of Acquring JSON Data
